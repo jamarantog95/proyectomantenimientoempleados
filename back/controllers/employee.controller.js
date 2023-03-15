@@ -37,18 +37,6 @@ exports.findEmployee = catchAsync(async (req, res) => {
         employee
     });
 
-    // try {
-    //     const person = Person.findAll({
-    //         where: {
-    //             id: req.params.id
-    //         }
-    //     })
-    // } catch (error) {
-    //     res.json({
-    //         message: error.message
-    //     })
-    // }
-
 });
 
 
